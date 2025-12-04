@@ -1,94 +1,74 @@
 {
-  "Eurocore": {
+  "TOP_1_ABILENE": {
     "first_fit": {
-      "blocked": 151,
-      "blocking_prob": 0.302,
-      "utilization": 0.6728260869565217,
-      "fragmentation": 2.9782608695652173,
-      "time_s": 0.1460130214691162
-    },
-    "parcel_fit": {
-      "blocked": 154,
-      "blocking_prob": 0.308,
-      "utilization": 0.685054347826087,
-      "fragmentation": 2.369565217391304,
-      "time_s": 0.2907729148864746
+      "blocked_connections": 0,
+      "served_connections": 110,
+      "utilization": 0.12142857142857143,
+      "fragmentation": 3.6785714285714284,
+      "time_s": 0.046755075454711914
     },
     "sliding_fit": {
-      "blocked": 146,
-      "blocking_prob": 0.292,
-      "utilization": 0.6641304347826087,
-      "fragmentation": 3.5652173913043477,
-      "time_s": 0.282073974609375
-    }
+      "blocked_connections": 0,
+      "served_connections": 110,
+      "utilization": 0.12142857142857143,
+      "fragmentation": 4.392857142857143,
+      "time_s": 0.18832612037658691
+    },
+    "parcel_fit": {
+      "blocked_connections": 0,
+      "served_connections": 110,
+      "utilization": 0.12142857142857143,
+      "fragmentation": 3.6785714285714284,
+      "time_s": 0.017951011657714844
+    },
+    "workload_size": 110
   },
-  "NSFNet": {
+  "TOP_2_ANS": {
     "first_fit": {
-      "blocked": 205,
-      "blocking_prob": 0.41,
-      "utilization": 0.7349431818181819,
-      "fragmentation": 3.5681818181818183,
-      "time_s": 0.17453885078430176
-    },
-    "parcel_fit": {
-      "blocked": 207,
-      "blocking_prob": 0.414,
-      "utilization": 0.7622159090909091,
-      "fragmentation": 3.3181818181818183,
-      "time_s": 0.3350348472595215
+      "blocked_connections": 0,
+      "served_connections": 306,
+      "utilization": 0.2285,
+      "fragmentation": 6.78,
+      "time_s": 0.03821086883544922
     },
     "sliding_fit": {
-      "blocked": 203,
-      "blocking_prob": 0.406,
-      "utilization": 0.7201704545454546,
-      "fragmentation": 4.113636363636363,
-      "time_s": 0.28924989700317383
-    }
+      "blocked_connections": 0,
+      "served_connections": 306,
+      "utilization": 0.2285,
+      "fragmentation": 7.34,
+      "time_s": 0.5570497512817383
+    },
+    "parcel_fit": {
+      "blocked_connections": 0,
+      "served_connections": 306,
+      "utilization": 0.2285,
+      "fragmentation": 6.78,
+      "time_s": 0.08011317253112793
+    },
+    "workload_size": 306
   },
-  "UKNet": {
+  "TOP_3_ARNES": {
     "first_fit": {
-      "blocked": 222,
-      "blocking_prob": 0.444,
-      "utilization": 0.48012820512820514,
-      "fragmentation": 3.230769230769231,
-      "time_s": 0.19430971145629883
-    },
-    "parcel_fit": {
-      "blocked": 229,
-      "blocking_prob": 0.458,
-      "utilization": 0.49182692307692305,
-      "fragmentation": 3.3974358974358974,
-      "time_s": 0.33434486389160156
+      "blocked_connections": 0,
+      "served_connections": 272,
+      "utilization": 0.265625,
+      "fragmentation": 7.325,
+      "time_s": 0.04668879508972168
     },
     "sliding_fit": {
-      "blocked": 221,
-      "blocking_prob": 0.442,
-      "utilization": 0.48028846153846155,
-      "fragmentation": 3.641025641025641,
-      "time_s": 0.33214592933654785
-    }
-  },
-  "USNet": {
-    "first_fit": {
-      "blocked": 170,
-      "blocking_prob": 0.34,
-      "utilization": 0.43577302631578946,
-      "fragmentation": 4.565789473684211,
-      "time_s": 0.21654796600341797
+      "blocked_connections": 0,
+      "served_connections": 272,
+      "utilization": 0.265625,
+      "fragmentation": 7.925,
+      "time_s": 0.4971938133239746
     },
     "parcel_fit": {
-      "blocked": 173,
-      "blocking_prob": 0.346,
-      "utilization": 0.46792763157894735,
-      "fragmentation": 5.0855263157894735,
-      "time_s": 0.4248497486114502
+      "blocked_connections": 0,
+      "served_connections": 272,
+      "utilization": 0.265625,
+      "fragmentation": 7.325,
+      "time_s": 0.0991518497467041
     },
-    "sliding_fit": {
-      "blocked": 171,
-      "blocking_prob": 0.342,
-      "utilization": 0.440625,
-      "fragmentation": 4.6381578947368425,
-      "time_s": 0.4538891315460205
-    }
+    "workload_size": 272
   }
 }
